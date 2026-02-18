@@ -1,4 +1,4 @@
-# DataGuard
+# DataGuard Personal Breach Checker
 
 Generated: 2026-02-17
 
