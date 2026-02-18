@@ -189,12 +189,3 @@ npx markdown-pdf app/PROJECT_DOCUMENTATION.md -o app/PROJECT_DOCUMENTATION.pdf
 # or use puppeteer script to render markdown->html->pdf
 ```
 
-If you want, I can produce `app/PROJECT_DOCUMENTATION.pdf` here — tell me whether to generate it using `pandoc` or `npx markdown-pdf` (I can run the command in this workspace).
-
----
-
-If you'd like, I can also:
-- Expand the document with code-level diagrams and call flows.
-- Create a summary slide or a shorter executive summary PDF.
-
-Tell me which PDF generation method you prefer and I'll generate the PDF now.
