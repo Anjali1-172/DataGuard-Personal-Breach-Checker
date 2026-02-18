@@ -1,7 +1,8 @@
 # DataGuard Personal Breach Checker
 
 Generated: 2026-02-17
-<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/f2c0dedf-2d3f-4340-99d5-67595e5cc777" />
+<img width="1920" height="897" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/54ea76ba-45a4-430c-8c16-d1956650ebf3" />
+
 
 ## Overview
 
@@ -69,7 +70,9 @@ Dev dependencies include: `typescript`, `eslint`, `@eslint/js`, `@types/*` packa
   - `fetch("https://api.xposedornot.com/v1/check-email/${encodeURIComponent(email)}")`
   - Parses JSON and displays breach results in the `BreachChecker` UI.
 - Storage: searches are anonymous and not stored by the app.
-<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/c82900db-a9db-4580-9164-d1090fdf866d" />
+<img width="1920" height="894" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/c2a9b808-1cd8-4db4-9f31-2982bdea6afd" />
+<img width="1920" height="895" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/92e3a47f-3593-46d5-b9da-d2cabb7db7a1" />
+
 
 Files to inspect:
 - [app/src/components/BreachChecker.jsx](app/src/components/BreachChecker.jsx#L1-L20)
@@ -86,7 +89,7 @@ Files to inspect:
 
 Reference:
 - [app/src/sections/FormTracker.jsx](app/src/sections/FormTracker.jsx#L1-L30)
-<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/f6c67c0b-dba3-4848-bdd5-335b8c250b72" />
+
 
 ### Website Safety
 - Component: `app/src/sections/WebsiteSafety.jsx`.
@@ -95,7 +98,8 @@ Reference:
 ### Phone Protection
 - Component: `app/src/sections/PhoneProtection.jsx`.
 - Behavior: simulates exposure checks locally (randomized risk scores). No network persistence.
-<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/cf2e8048-abdb-4692-9a59-b7502faee68a" />
+<img width="1920" height="881" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/e4fd2c85-1e49-46ae-b125-5ba15cee0b97" />
+
 
 ### Email Protection
 - Component: `app/src/sections/EmailProtection.jsx`.
