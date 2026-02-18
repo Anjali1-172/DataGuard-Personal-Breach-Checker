@@ -1,4 +1,4 @@
-# DataGuard — Project Documentation
+# DataGuard
 
 Generated: 2026-02-17
 
@@ -162,30 +162,4 @@ JSON.parse(localStorage.getItem('dataguard_forms') || '[]')
 - Breach news: [app/src/sections/BreachNews.jsx](app/src/sections/BreachNews.jsx#L1-L40)
 - Footer: [app/src/sections/Footer.jsx](app/src/sections/Footer.jsx#L1-L40)
 - Package manifest: [app/package.json](app/package.json)
-
----
-
-## Export this doc to PDF
-
-Two easy options:
-
-1) Print from browser (recommended):
-   - Open `app/PROJECT_DOCUMENTATION.md` in VS Code or open the Markdown in a browser preview.
-   - In Chrome, open the file or a Markdown preview, then `Ctrl+P` → `Save as PDF`.
-
-2) Use `pandoc` (CLI):
-
-```bash
-# install pandoc (if not installed)
-# on Windows: choco install pandoc  (or download from pandoc.org)
-pandoc app/PROJECT_DOCUMENTATION.md -o app/PROJECT_DOCUMENTATION.pdf
-```
-
-3) Use Chromium headless via `npx` (if you prefer automated conversion):
-
-```bash
-# convert HTML rendered from markdown to PDF using markdown-pdf or puppeteer
-npx markdown-pdf app/PROJECT_DOCUMENTATION.md -o app/PROJECT_DOCUMENTATION.pdf
-# or use puppeteer script to render markdown->html->pdf
-```
 
